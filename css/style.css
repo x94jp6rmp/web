@@ -3,11 +3,23 @@
     padding: 0;
 }
 
+h2,
+h3,
+p {
+    font-weight: 100;
+}
+
+html {
+    overflow-x: hidden;
+
+}
+
 #banner {
-    background: url(/image/bg.png), url(../image/bg2.jpeg);
+    background: url(../image/bg2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    max-height: 100px;
     padding: 12em 0 29em;
     position: relative;
     left: 0;
@@ -23,16 +35,17 @@
     font-size: 48pt;
     line-height: 1em;
     position: relative;
-    left: 590px;
+    left: 580px;
     top: 98px;
     opacity: .9;
     font-family: 'Poiret One', cursive;
+    font-weight: 700;
 }
 
 #banner p {
     position: relative;
     left: 475px;
-    top: 135px;
+    top: 120px;
     font-size: 18pt;
 }
 
@@ -42,7 +55,7 @@
     border: 1px solid #ffffff;
     border-radius: 3px;
     position: relative;
-    left: 690px;
+    left: 670px;
     top: 200px;
     text-decoration: none;
     font-size: 17pt;
@@ -84,7 +97,7 @@ header ul li a:hover {
 }
 
 #home {
-    margin: 100px 0px 50px 520px;
+    margin: 100px 0px 50px 530px;
 }
 
 #explore {
@@ -93,4 +106,184 @@ header ul li a:hover {
 
 #islands {
     margin: 100px 0px 50px 20px;
+}
+
+#mid {
+    background-color: #3ba666;
+    -moz-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
+    -webkit-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
+    -o-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
+    -ms-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
+    background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
+    height: 660px;
+    color: rgb(64, 64, 64);
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+#mid h2 {
+    position: relative;
+    font-size: 32pt;
+    top: 120px;
+}
+
+#mid p {
+    font-size: 15pt;
+    position: relative;
+    top: 140px;
+}
+
+.icon {
+    margin: 170px 180px 40px 0px;
+}
+
+#iconp {
+    margin: 170px 0px 40px 0px;
+}
+
+#bigicon {
+    margin: 0px 360px 0px 350px;
+}
+
+#content {
+    height: auto;
+    text-align: center;
+    color: dimgray;
+    padding: 130px 165px 0px 165px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+#content img {
+    border-radius: 7px;
+}
+
+#word li {
+    display: inline-block;
+    max-width: 300px;
+
+}
+
+#word {
+    text-align: center;
+    font-size: 15pt;
+}
+
+#time {
+    position: relative;
+    top: -20px;
+    left: -20px;
+}
+
+#mes {
+    position: relative;
+    top: -20px;
+    left: 10px;
+}
+
+#p {
+    position: relative;
+    top: -20px;
+    right: -20px;
+
+}
+
+hr {
+    display: flex;
+    position: relative;
+    width: auto;
+    color: rgb(230, 230, 230);
+    border-style: double;
+}
+
+#content h2 {
+    font-size: 32pt;
+}
+
+#content p {
+    margin: 15px 0 50px 0;
+    font-size: 15pt;
+}
+
+.pic {
+    margin: 50px 0 0 0;
+}
+
+.one {
+    position: relative;
+    float: left;
+
+}
+
+.two {
+    position: relative;
+    float: right;
+
+}
+
+.three {
+    position: relative;
+    float: left;
+    top: 30px;
+    padding: 0 0 150px 0;
+}
+
+.four {
+    position: relative;
+    float: right;
+    top: 30px;
+    padding: 0 0 150px 0;
+
+}
+
+.pic p {
+    width: 577px;
+}
+
+.pic h3 {
+    margin: 30px 0 40px 0;
+    font-size: 18pt;
+}
+
+#button_d {
+    color: rgb(150, 150, 150);
+    background-color: transparent;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
+    position: relative;
+    top: -60px;
+    text-decoration: none;
+    font-size: 17pt;
+    padding: 10px 30px 10px 30px;
+}
+
+#button_d:hover {
+    background-color: rgba(200, 200, 200, .1);
+}
+
+.footer {
+    position: absolute;
+    padding: 300px 900px;
+    top: 2900px;
+    left: 0px;
+    height: auto;
+    background: rgb(50, 50, 50);
+    color: azure;
+}
+
+.footer #footerone {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+
+}
+
+.footer #footertwo {
+    position: absolute;
+    left: 550px;
+
+}
+
+.footer #footerthree {
+    position: absolute;
+    right: 500px;
 }
