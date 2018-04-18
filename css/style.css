@@ -32,21 +32,23 @@ html {
 
 #banner h2 {
     color: #ffffff;
-    font-size: 48pt;
+    font-size: 75pt;
     line-height: 1em;
+    letter-spacing: 15px;
     position: relative;
-    left: 580px;
+    left: 400px;
     top: 98px;
-    opacity: .9;
+    opacity: .7;
     font-family: 'Poiret One', cursive;
-    font-weight: 700;
+    font-weight: 1000;
 }
 
 #banner p {
     position: relative;
-    left: 475px;
+    left: 380px;
     top: 120px;
     font-size: 18pt;
+    letter-spacing: 3px;
 }
 
 #banner .button {
@@ -262,28 +264,76 @@ hr {
 
 .footer {
     position: absolute;
-    padding: 300px 900px;
+    padding: 300px 900px 250px 900px;
     top: 2900px;
     left: 0px;
     height: auto;
-    background: rgb(50, 50, 50);
-    color: azure;
+    background: rgb(32, 34, 34);
+    color: rgb(150, 150, 150);
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.footer h2 {
+    margin: 0px 0 50px 0;
+}
+
+.footer p {
+    margin: 0px 0 40px 0;
+    color: rgb(100, 100, 100);
+}
+
+.footer a {
+    text-decoration: underline;
+    color: rgb(100, 100, 100);
 }
 
 .footer #footerone {
     position: absolute;
+    max-width: 400px;
     top: 100px;
-    left: 50px;
+    left: 150px;
 
 }
 
 .footer #footertwo {
     position: absolute;
-    left: 550px;
+    max-width: 400px;
+    top: 100px;
+    left: 590px;
 
 }
 
 .footer #footerthree {
     position: absolute;
-    right: 500px;
+    max-width: 400px;
+    top: 100px;
+    right: 390px;
+}
+
+#footerthree img {
+    position: relative;
+    left: -30px;
+    top: -45px;
+    height: auto;
+
+}
+
+#address {
+    position: relative;
+    top: -50px;
+}
+
+#mail {
+    position: relative;
+    top: -110px;
+}
+
+#ad {
+    position: relative;
+    top: -90px;
+}
+
+#someone {
+    position: relative;
+    top: -160px;
 }
